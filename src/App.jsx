@@ -4,6 +4,7 @@ import HowItWorks from "./components/HowItWorks.jsx";
 import Popular from "./components/Popular.jsx";
 import Areas from "./components/Areas.jsx";
 import DownloadCTA from "./components/DownloadCTA.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Areas />
         <DownloadCTA />
       </main>
+      <Footer />
     </>
   );
 }

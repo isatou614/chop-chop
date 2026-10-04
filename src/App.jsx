@@ -2,6 +2,7 @@ import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
 import HowItWorks from "./components/HowItWorks.jsx";
 import Popular from "./components/Popular.jsx";
+import Areas from "./components/Areas.jsx";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <HowItWorks />
       <Popular />
+      <Areas />
     </>
   );
 }
